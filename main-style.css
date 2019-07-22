@@ -29,3 +29,19 @@
 .rich-me-out-div {
     text-align: center;
 }
+
+header h2{
+    font-family: "Segoe Print";
+}
+
+.section-header{
+    text-align: center;
+}
+
+.col {
+    width: 33%;
+}
+
+.row {
+    display: block;
+}
