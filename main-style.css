@@ -17,3 +17,15 @@
     font-family: "Segoe Print";
     font-size: 12;
 }
+
+.section-main {
+    height: 100%;
+}
+
+.carrousel {
+    height: 70%;
+}
+
+.rich-me-out-div {
+    text-align: center;
+}
