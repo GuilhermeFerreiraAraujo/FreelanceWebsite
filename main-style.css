@@ -80,19 +80,40 @@ header h2{
     font-size: 16px;
   }
 
-  .dev-description {
-      text-align: left;
-      width: 60%;
-      margin-left: 90px;
-      font-family: "Times New Roman", Times, serif;
-      font-size: 12px;
-  }
+.dev-description {
+    text-align: left;
+    width: 60%;
+    margin-left: 90px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+}
 
-  .main-header {
-      padding-top: 150px;
-      font-size: 30px;
-  }
+.main-header {
+    padding-top: 150px;
+    font-size: 30px;
+}
 
-  body {
-      background-color: #F0FFFF;
-  }
+.carousel-indicators li {    
+    background-color: black;
+    border-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: grey;
+}
+
+.carousel-control-prev-icon{
+    background-color: grey;
+}
+
+.carousel-inner{
+    height: 400px;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.dark {
+    background-color: black;
+}
