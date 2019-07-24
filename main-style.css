@@ -170,3 +170,17 @@ h4, p {
 span {
     color: white;
 }
+
+.space-between-sections {
+    height: 100px;
+}
+
+@media (max-width: 1024px) {
+    .btn-costum {
+      display: none;
+    }
+
+    .space-between-sections {
+        display: none;
+    }
+}
