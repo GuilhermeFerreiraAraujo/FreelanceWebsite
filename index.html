@@ -76,7 +76,7 @@
             </div>
 
             <div class="text-center">
-                <a href="#rich-me-out" class="btn-costum">Reach me out</a>
+                <span id="reach-me-out-btn" class="btn-costum">Reach me out</span>
             </div>
         </section>
 
@@ -158,6 +158,19 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+    <script>
+
+        window.onload = function (){
+            var btn = document.getElementById("reach-me-out-btn");
+            btn.addEventListener("click", reachMeOutButtonClickHandler);
+        }
+
+        reachMeOutButtonClickHandler = function() {
+            var elmnt = document.getElementById("rich-me-out");
+            elmnt.scrollIntoView({behavior: 'smooth'});
+        }
+
+    </script>
 
 </body>
 

@@ -140,6 +140,11 @@ h4, p {
     font-size: 16px;
 }
 
+.btn-costum:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
 .backgound-green {
     background-color: #106369;
 }
