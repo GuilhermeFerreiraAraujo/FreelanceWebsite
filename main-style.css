@@ -5,7 +5,9 @@
 }
 
 .nav-bar {
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .nav-header-main {
@@ -23,12 +25,10 @@
 }
 
 .carrousel {
-    height: 70%;
+    height: 60%;
 }
 
-.rich-me-out-div {
-    text-align: center;
-}
+
 
 header h2{
     font-family: "Segoe Print";
@@ -36,16 +36,6 @@ header h2{
 
 .section-header{
     text-align: center;
-}
-
-.column-wrapper {
-    text-align: center;
-    width: 100%
-}
-
-.column {
-    float: left;
-    width: 33%;
 }
 
 .section-contacts {
@@ -80,13 +70,7 @@ header h2{
     font-size: 16px;
   }
 
-.dev-description {
-    text-align: left;
-    width: 60%;
-    margin-left: 90px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12px;
-}
+
 
 .main-header {
     font-size: 30px;
@@ -114,7 +98,7 @@ header h2{
     height: 400px;
 }
 
-.container {
+.content {
     background-color: #D2E9E3;
 }
 
@@ -129,3 +113,35 @@ header h2{
     padding-top: 5%;
 }
 
+.nav-bar-container {
+    background-color: #106369;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+}
+
+h1, h2, h3{
+    color: #106369;
+}
+
+h4, p {
+    color: white;
+}
+
+.btn-costum {
+    background-color: #106369; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contact-card {
+    background-color: #2C3531;
+    margin: 0px 10px 0px 10px;
+    height: 400px;
+}

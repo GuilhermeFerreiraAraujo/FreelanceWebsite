@@ -3,116 +3,134 @@
 <head>
     <link rel="stylesheet" href="main-style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 </head>
 
-<body class="container">
+<body class="content">
 
-    <nav class="nav-bar">
-        <a>
-            <em class="nav-header-main">Guilherme Ferreira</em></br>
-            <small class="nav-header-slogan">Building your projects.</small>
-        </a>
-    </nav>
+    <div class="nav-bar-container">
+        <nav class="nav-bar">
+            <div class="container">
+                <a>
+                    <em class="nav-header-main">Guilherme Ferreira</em></br>
+                    <small class="nav-header-slogan">Building your projects.</small>
+                </a>
+            </div>
+        </nav>
+    </div>
 
+    <div class="container">
 
+        <section class="section-main">
 
-    <section class="section-main">
+            <div class="carrousel margin-top center">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 
-        <div class="carrousel margin-top center">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <!--
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="dark active"></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="1" class="dark "></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="2" class="dark"></li>
+                    </ol>
+                    -->
 
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="dark active"></li>
-                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="1" class="dark "></li>
-                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="2" class="dark"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h1 class="main-header">Do you have a great idea and need some help to implement it?
-                                </h1>
-                            </div>
-                            <div class="col-md-6">
-                                <img class="caoursel-img rounded" src="images/carousel1.jpg">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img class="caoursel-img rounded" src="images/carousel2.png">
-                            </div>
-                            <div class="col-md-6">
-                                <h1 class="main-header">Tired of those big companies know it all trying to get your
-                                    money?
-                                </h1>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h1 class="main-header">Do you have a great idea and need some help to implement it?
+                                    </h1>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="caoursel-img rounded" src="images/carousel1.jpg">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h1 class="main-header">Need to talk with somebody who can understand your business?
-                                </h1>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="caoursel-img rounded" src="images/carousel2.png">
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="main-header">Tired of those big companies know it all trying to get your
+                                        money?
+                                    </h1>
+                                </div>
                             </div>
-                            <div class="col-md-6">
-                                <img class="caoursel-img rounded" src="images/carousel3.jpg">
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h1 class="main-header">Need to talk with somebody who can understand your business?
+                                    </h1>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="caoursel-img rounded" src="images/carousel3.jpg">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-              
             </div>
 
-        </div>
-
-        <div class="rich-me-out-div">
-            <a href="#rich-me-out" class="btn btn-dark rich-me-out-button">Reach me out</a>
-        </div>
-    </section>
-
-    <section id="rich-me-out" class="section-contacts">
-
-        <header class="section-header">
-            <h2>Reach me Out</h2>
-        </header>
-
-        <div class="margin-top column-wrapper row">
-            <div class="col-md-4">
-                <img class="rouded-img contact-icon-img" src="images/guilherme.jpg">
-
-                <h3>Software Developer</h3>
-
-                <p class="dev-description">
-                    I am a software developer woriking on full stack web development. The main tecnologies I work with
-                    are aurelia, .net core and sql server.
-                </p>
+            <div class="rich-me-out-div text-center">
+                <a href="#rich-me-out" class="btn-costum">Reach me out</a>
             </div>
-            <div class="col-md-4">
-                <img class="rouded-img contact-icon-img" src="images/social-media.jpg">
+        </section>
 
-                <h3>Social Media</h3>
+        <section id="rich-me-out" class="section-contacts">
+            <header class="section-header">
+                <h2>Reach me Out</h2>
+            </header>
 
-                <a href="https://www.linkedin.com/in/guilherme-araujo-35b958ba/">Linkedin</a>
+            <div class="margin-top column-wrapper row">
+                <div class="col-md-1">
 
+                </div>
+                <div class="contact-card col-md-3">
+                    <div class="text-center">
+                        <img class="margin-top rouded-img contact-icon-img" src="images/guilherme.jpg">
+                        <h4>Software Developer</h4>
+                    </div>
+
+                    <p class="margin-top text-sm-left">
+                        I am a software developer woriking on full stack web development. The main tecnologies I work
+                        with
+                        are aurelia, .net core and sql server.
+                    </p>
+                </div>
+
+                <div class="contact-card col-md-3">
+                    <div class="text-center">
+                        <img class="margin-top rouded-img contact-icon-img" src="images/social-media.jpg">
+                        <h4>Social Media</h4>
+
+                    </div>
+
+                    <div class="margin-top">
+                        <a href="https://www.linkedin.com/in/guilherme-araujo-35b958ba/"></i>
+                            Linkedin</a><br/>
+                        <a href="https://www.facebook.com/GuilhermeFerreiraAraujo/"></i>
+                            Facebook</a>
+                    </div>
+
+                </div>
+                <div class="contact-card col-md-3">
+                    <div class="text-center">
+                        <img class="margin-top rouded-img contact-icon-img" src="images/contacts.jpg">
+                        <h4>Contacts</h4>
+                    </div>
+
+                    <div class="margin-top">
+                        <p>Whatsup: +356 793 544 46</p>
+                        <p>Skype: gui_s3</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img class="rouded-img contact-icon-img" src="images/contacts.jpg">
-
-                <h3>Contacts</h3>
-
-                <p>Whatsup: +356 793 544 46</p>
-                <p>Skype: gui_s3</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
