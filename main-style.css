@@ -89,8 +89,12 @@ header h2{
 }
 
 .main-header {
-    padding-top: 150px;
     font-size: 30px;
+    padding-top: 20%;
+}
+
+.vertical-center{
+    vertical-align: middle;
 }
 
 .carousel-indicators li {    
@@ -110,10 +114,18 @@ header h2{
     height: 400px;
 }
 
-body {
-    background-color: #F7F7F7;
+.container {
+    background-color: #D2E9E3;
 }
 
 .dark {
     background-color: black;
 }
+
+
+.caoursel-img {
+    width: 350px;
+    height: 250px;
+    padding-top: 5%;
+}
+
