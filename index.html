@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Guilherme Ferreira de Araujo - Freelancer software developer</title>
     <link rel="stylesheet" href="main-style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -79,9 +80,12 @@
                 <span id="reach-me-out-btn" class="btn-costum">Reach me out</span>
             </div>
         </section>
+    </div>
+
+    <div class="container-fluid">
 
         <div class="space-between-sections"> </div>
- 
+
 
         <div id="rich-me-out" class="container-fluid margin-top section-contacts">
             <header class="margin-top section-header">
@@ -89,12 +93,11 @@
             </header>
 
             <div class="margin-top row">
-                <div class="col-12 col-md-1"></div>
 
-                <div class="contact-card-left  col-12 col-md-3 ">
+                <div class="contact-card-left offset-md-1 col-12 col-md-3 ">
                     <div class="text-center">
                         <img class="margin-top rouded-img contact-icon-img" src="images/guilherme.jpg">
-                        <h4>Software Developer</h4>
+                        <h4 class="small-margin-top">Software Developer</h4>
                     </div>
 
                     <p class="margin-top text-sm-left">
@@ -107,19 +110,21 @@
                 <div class="contact-card-middle col-12 col-md-3 ">
                     <div class="text-center">
                         <img class="margin-top rouded-img contact-icon-img" src="images/social-media.jpg">
-                        <h4>Social Media</h4>
+                        <h4 class="small-margin-top">Social Media</h4>
 
                     </div>
 
                     <div class="margin-top">
-                        <div >
-                            <a class="background-green" href="https://www.linkedin.com/in/guilherme-araujo-35b958ba/" target="_blank">
+                        <div>
+                            <a class="background-green" href="https://www.linkedin.com/in/guilherme-araujo-35b958ba/"
+                                target="_blank">
                                 Linkedin</a><br />
                         </div>
                         </br>
 
-                        <div >
-                            <a class="background-green" href="https://www.facebook.com/GuilhermeFerreiraAraujo/" target="_blank">
+                        <div>
+                            <a class="background-green" href="https://www.facebook.com/GuilhermeFerreiraAraujo/"
+                                target="_blank">
                                 Facebook</a>
                         </div>
                     </div>
@@ -129,7 +134,7 @@
                 <div class="contact-card-rigth col-12 col-md-3">
                     <div class="text-center">
                         <img class="margin-top rouded-img contact-icon-img" src="images/contacts.jpg">
-                        <h4>Contacts</h4>
+                        <h4 class="small-margin-top">Contacts</h4>
                     </div>
 
                     <div class="margin-top">
@@ -148,6 +153,7 @@
             </div>
         </div>
     </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -163,14 +169,14 @@
 
     <script>
 
-        window.onload = function (){
+        window.onload = function () {
             var btn = document.getElementById("reach-me-out-btn");
             btn.addEventListener("click", reachMeOutButtonClickHandler);
         }
 
-        reachMeOutButtonClickHandler = function() {
+        reachMeOutButtonClickHandler = function () {
             var elmnt = document.getElementById("rich-me-out");
-            elmnt.scrollIntoView({behavior: 'smooth'});
+            elmnt.scrollIntoView({ behavior: 'smooth' });
         }
 
     </script>

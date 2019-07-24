@@ -6,7 +6,7 @@
 
 .nav-bar {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -142,7 +142,7 @@ h4, p {
 .contact-card-left, .contact-card-middle, .contact-card-rigth {
     background-color: #2C3531;
     margin: 0px 10px 0px 10px;
-    height: 400px;
+    height: 500px;
 }
 
 .contact-card-left:hover {
@@ -172,7 +172,7 @@ span {
 }
 
 .space-between-sections {
-    height: 100px;
+    height: 200px;
 }
 
 @media (max-width: 1024px) {
@@ -183,4 +183,8 @@ span {
     .space-between-sections {
         display: none;
     }
+}
+
+.small-margin-top{
+    margin-top: 30px;
 }
