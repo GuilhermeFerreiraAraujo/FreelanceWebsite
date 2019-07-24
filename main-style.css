@@ -140,8 +140,24 @@ h4, p {
     font-size: 16px;
 }
 
-.contact-card {
+.backgound-green {
+    background-color: #106369;
+}
+
+.contact-card-left, .contact-card-middle, .contact-card-rigth {
     background-color: #2C3531;
     margin: 0px 10px 0px 10px;
     height: 400px;
+}
+
+.contact-card-left:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact-card-middle:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact-card-rigth:hover {
+    transform: scale(1.1, 1.1);
 }
