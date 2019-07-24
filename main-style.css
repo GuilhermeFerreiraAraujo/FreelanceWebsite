@@ -161,3 +161,13 @@ h4, p {
 .contact-card-rigth:hover {
     transform: scale(1.1, 1.1);
 }
+
+.background-green {
+    background-color: #106369;
+    width: 90%;
+    color: white;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    padding-top: 7px;
+}
